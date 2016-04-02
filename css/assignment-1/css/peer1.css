@@ -1,0 +1,33 @@
+
+header {
+    background-color: #B2B2B2;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+}
+/** do not display images ***/
+img {
+    display: none;
+}
+/** white color for header h1 ***/
+
+h1 {
+    color: #FFFFFF;
+    text-align: center;
+}
+/** watch your head header blue ***/
+h2 {
+    color: #000080;
+}
+/** update links styles ***/
+a {
+    background-color: #C5C5C5;
+    color: #000000;
+    text-align: center;
+
+}
+/** section make it gray ***/
+section {
+    background-color: #7F7F7F;
+}

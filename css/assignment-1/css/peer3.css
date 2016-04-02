@@ -1,0 +1,30 @@
+img {
+    display:none;
+}
+
+header{
+    background-color: #000066;
+    color: #ffffff;
+}
+
+nav{
+    background-color: #006600;
+    color: #ffffff;
+}
+
+h1,h2{
+    color: #00ffff;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+a{
+    background-color: #ffff00;
+}
+
+section{
+    background-color: #99ccff;
+}
