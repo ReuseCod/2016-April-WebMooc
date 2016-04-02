@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Junming Cao</title>
+    <link rel="stylesheet" type="text/css" href="../css/mystyle.css">
+</head>
+<body>
+<header>
+    <h1>Junming Cao</h1>
+    <nav>
+        <a href="one.html">one</a>
+        <a href="two.html">two</a>
+        <a href="three,html">three</a>
+        <a href="game.html">games</a>
+    </nav>
+</header>
+<section class="half">
+        <h2>Favorite Foods</h2>
+        <ul>
+            <li>noodles</li>
+            <li>steak</li>
+            <li>eggs</li>
+            <li>pancakes</li>
+        </ul>
+</section>
+<section class="half">
+    <h2>Achivements</h2>
+    <p>
+        Progress in this course (100%)<progress value="1"></progress><br/>
+        Progress in the Specialization capstopn (20%)<progress value="20" max="100"></progress><br/>
+        Progrss in life goals (20%)<br/><progress value="20" max="100"></progress><br/>
+    </p>
+</section>
+<section class="whole">
+    <h2>More about me</h2>
+    <details open>
+        <summary>My Childhood</summary>
+        <p>I grew up in Henan Province, China.</p>
+    </details>
+</section>
+
+<footer>
+    <p>
+       <img src="http://www.intro-webdesign.com/images/newlogo.png" alt="new logo">
+        This page was created by Junming Cao &amp; Collen van Lent. To learn more about web design, visit
+        <a href="http://www.intro-webdesign.com">Intro to Web Design</a>
+    </p>
+</footer>
+</body>
+</html>
