@@ -1,0 +1,30 @@
+header
+{
+    background-color:#a0ff9e;
+}
+
+h1{
+    text-align: center;
+    color:#ba370c;
+    font-variant: all-petite-caps;
+    font-size: 300%;
+}
+
+h2{
+    color:#ce0505;
+    font-variant:all-petite-caps;
+    font-size:200%;
+}
+
+section{
+    background-color: #6cf1f6;
+}
+
+a{
+   text-align:center;
+    color:#530fe0;
+    background-color: #f6f1ed;
+}
+img{
+    display:none;
+}
