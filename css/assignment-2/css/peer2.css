@@ -1,0 +1,76 @@
+header{
+    background-image: url('../images/flywheel.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    font-family: Times;
+    text-transform: uppercase;
+    padding: 10px
+}
+
+h1{
+    text-align: center;
+    color: #eeeeee;
+    font-size: 175%
+}
+
+nav{
+    color: #000000;
+    text-transform: capitalize;
+}
+
+nav a{
+    border: 2px solid #a1a1a1;
+    padding: 10px 40px;
+    display: inline-block;
+    width: 15%;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000000;
+    background: #dddddd;
+    opacity: 0.6;
+}
+
+body{
+    background: #ffffff;
+    font-size: 95%;
+    width: 30%
+padding: 4%;
+    border: 2px;
+    margin: 4%;
+    float: right;
+}
+
+h2{
+    text-transform: uppercase;
+    color: #292c70;
+}
+
+img{
+   margin: 10px 50px;
+    border: 3px solid #000000;
+    max-height: 65%;
+    max-width: 65%;
+
+}
+
+.current{
+    color: #00000;
+    background: #ffffff;
+    text-transform: uppercase;
+}
+
+.left{
+    width: 25%;
+    /*height:25%; Only add this, images in it can use percentage to determine its size*/
+    display: inline-block;
+    background-color: #cccccc;
+    overflow: hidden;
+}
+
+.right{
+    float: right;
+    display: inline-block;
+    width: 70%;
+    margin: 0 auto;
+}
