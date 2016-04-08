@@ -1,0 +1,148 @@
+
+body{
+    margin:10px;
+    padding: 1%;
+
+}
+
+header{
+
+    background-color: #9E9E9E;
+    background-image: url(../images/flywheel.jpg);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+h1{
+    text-transform: uppercase;
+    text-align:center;
+    color: #ffffff;
+    font-size: 200%;
+    padding-top: 2%;
+
+}
+
+h2{
+    text-transform: uppercase;
+    color:#000000;
+}
+
+nav{
+
+    text-align:center;
+}
+
+nav>a{
+    text-decoration: none;
+    color:#000000;
+    background-color: #ffffff ;
+    opacity:0.5;
+
+
+    display:inline-block;
+    padding: 1%;
+    width:10%;
+    margin-left:5%;
+    margin-right:5%;
+    border-radius: 5%;
+    font-size: 150%;
+    font-style: bold;
+}
+
+.active{
+    opacity:1;
+}
+section{
+    background-color: #ffffff;
+    padding: 1%;
+}
+aside{
+    background:#a3bc69;
+
+}
+
+.left{
+    display:inline-block;
+    float:left;
+    width: 25%;
+
+}
+
+.right{
+    display: inline-block;
+    float:left;
+    width:60%;
+    margin-left: 1px;
+}
+/*left side images*/
+aside img {
+    max-width: 80%;
+    height: auto;
+    display:block;
+    background-color: #ecdedc;
+    border: #000000 solid 2px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right:auto;
+    margin-left: auto;
+
+}
+
+p{
+    font-size:20px;
+
+}
+/*styling the table*/
+
+table{
+
+    font-size: 20px;
+    width:90%;
+    margin-left:15%;
+    margin-right:15%;
+
+
+}
+
+th{
+    text-align: center;
+    background: #8a8a8a;
+    color: #ffffff;
+    height: 40px;
+    border-top-left-radius:5px;
+    border-top-right-radius: 5px;
+    border-bottom: black solid;
+}
+
+th:first-child{
+    text-align: left;
+    padding-left: 15px;
+
+}
+
+td{
+    background: #dedede;
+    height: 40px;
+    opacity:0.6;
+}
+
+td:nth-child(1){
+    padding-left: 15px;
+
+}
+
+td:nth-child(2){
+    text-align: center;
+
+}
+
+td:nth-child(3){
+    text-align: center;
+
+}
+td:hover{
+    opacity: 1;
+    font-size:22px;
+    transition-delay: 0.5;
+}

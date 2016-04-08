@@ -1,0 +1,108 @@
+body{
+    margin: 10px;
+    padding: 2%;
+}
+h1{
+    color:#FFFFFF;
+    padding: 2% 1%;
+    text-align:center;
+    text-transform:uppercase;
+    font-size: 140%;
+}
+header{
+    padding: 3%;
+    background-image:url("../images/flywheel.jpg");
+    background-color:#88AA99;
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+nav a{
+    display: inline-block;
+    width: 20%;
+    color:#000000;
+    background-color:rgba(255,255,255,0.4);
+    margin: 2%;
+    padding:2% 0%;
+    text-decoration:none;
+    border-radius: 5px;
+    text-align:center;
+}
+.active{
+    background-color:rgba(255,255,255,1);
+}
+
+.left{
+    display:inline-block;
+    width:30%;
+    background-color:#81AB99;
+    float:left;
+}
+.left img{
+    display:block;
+    width: 80%;
+    margin: 15% auto;
+    border:2px solid #03301C;
+}
+
+
+.right{
+    display:inline-block;
+    width:65%;
+    margin: 0% 0% 0% 2%;
+    float:left;
+
+}
+table{
+
+    display:block;
+    width:90%;
+    margin: 1% auto;
+    font-size:90%;
+    font-family:helvetica;
+    font-weight:200;
+    line-height:2.5;
+    border-spacing:2;
+    text-align:center;
+
+}
+td{
+    background-color:#81AB99;
+    color:#635353;
+    border-radius:1px;
+    box-shadow: 2px 2px 2px #888888;
+    text-shadow: 1px 1px #999999;
+}
+
+td:first-child{
+    text-align:left;
+    width:400px;
+    padding: 0px 0px 0px 5px;
+}
+td:nth-child(2){
+    width:150px;
+}
+td:nth-child(3){
+    width:150px;
+}
+th{
+    background: rgba(164,179,87,1);
+    background: -moz-radial-gradient(to bottom, #5A9179 0%, #104a31 100%);
+    background: -webkit-linear-gradient(to bottom, #5A9179 0%, #104a31 100%);
+    background: -o-linear-gradient(to bottom, #5A9179 0%, #104a31 100%);
+    background: -ms-linear-gradient(to bottom, #5A9179 0%, #104a31 100%);
+    background: linear-gradient(to bottom, #5A9179 0%, #104a31 100%);
+    color:#FFFFFF;
+    line-height:3;
+    border-bottom: 4px solid #03202C;
+    border-radius:3px 3px 0px 0px;
+    letter-spacing:1px;
+    text-transform:uppercase;
+}
+tr{
+    opacity:0.8;
+}
+tr:hover{
+    opacity:1;
+    font-weight:500;
+}
+
