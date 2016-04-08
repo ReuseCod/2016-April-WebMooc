@@ -1,0 +1,239 @@
+body
+{
+    padding:5px;
+    margin:5px;
+}
+
+header
+{
+    background-color:#a0ff9e;
+    background:url("../images/flywheel.jpg") no-repeat;
+    background-size: 100%;
+    height: 23vh;
+    padding:2vh;
+}
+
+nav a{
+    text-align: center;
+    display:inline-block;
+    width:10%;
+    margin:1% 6%;
+    padding:1%;
+    color:#530fe0;
+    background-color: #f6f1ed;
+    opacity: 0.5;
+    text-decoration: none;
+    border-radius:200px;
+}
+nav a:hover, .active
+{
+  opacity:1;
+}
+h1{
+    text-align: center;
+    color:#f8f8f8;
+    font-variant: all-petite-caps;
+    font-size: 250%;
+    margin:0px auto;
+}
+
+h2{
+    color:#141313;
+    font-variant:all-petite-caps;
+    font-size:200%;
+}
+
+.left{
+    width:25%;
+    background-color: #4F800D;
+    float:left;
+    text-align: center;
+}
+.right{
+    float: left;
+    width:65%;
+    margin:1%;
+}
+.right + *
+{
+    clear:left;
+}
+.left img{
+
+    width:80%;
+    border:solid #000000;
+    margin:5% auto;
+
+}
+
+table{
+    font-family: "Times New Roman", Georgia ,Serif;
+    font-weight:bolder;
+    font-size:18px;
+    color:#E0ECFF;
+    line-height: 20px;
+    width:900px;
+    margin:5% 5% 5% 10%;
+    padding:3%;
+    overflow；auto;
+    table-layout: fixed;
+    position:absolute;
+    left:1300px;
+}
+
+table tr{
+    text-align:center;
+    opacity:0.8;
+    -webkit-transition:opacity 0.3s linear,font-size 0.3s linear;
+    -moz-transition:opacity 0.3s linear,font-size 0.3s linear;
+    -o-transition:opacity 0.3s linear,font-size 0.3s linear;
+    transition:opacity 0.3s linear,font-size 0.3s linear;
+    overflow:hidden;
+    box-shadow: 2px 2px 2px #888888;
+
+}
+
+table tr *:first-child{
+    text-align:left;
+}
+
+table tr:hover{
+    opacity:1;
+    font-size:20px;
+    font-weight: bolder;
+}
+
+table tr th{
+    background: -webkit-linear-gradient(#777613, #4F800D);
+    background: -o-linear-gradient(#777613, #4F800D);
+    background: -moz-linear-gradient(#777613, #4F800D);
+    background: linear-gradient(#777613, #4F800D);
+    border:1px solid #4cae4c;
+    border-bottom:2px solid #993300;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -o-border-top-left-radius: 5px;
+    -o-border-top-right-radius: 5px;
+    -moz-border-top-left-radius: 5px;
+    -moz-border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height:30px;
+    padding:5px;
+    text-shadow: 1px 1px #0092BF;
+    -webkit-transition: background 0.5s linear;
+    -moz-transition:  background 0.5s linear;
+    -o-transition:  background 0.5s linear;
+    transition:  background 0.5s linear;
+}
+table tr th:hover
+{
+  background:#ba370c;
+}
+
+
+table tr td{
+    background: -webkit-linear-gradient(#0052A3, #0092DC);
+    background: -o-linear-gradient(#777613, #4F800D);
+    background: -moz-linear-gradient(#777613, #4F800D);
+    background: linear-gradient(#0092BF, #0092DC);
+    color:#000000;
+    height:25px;
+    padding:5px;
+    -webkit-border-radius: 2px;
+    -o-border-radius:2px;
+    -moz-border-radius:2px;
+    border-radius:2px;
+    text-shadow: 1px 1px #777613;
+}
+
+/* Animation */
+@-webkit-keyframes pop{
+    0%{
+        left:1000px;
+        top:500px;
+    }
+    50%{
+        left:750px;
+        top:425px;
+    }
+   75%{
+        left:500px;
+       top:350px;
+      }
+    100%{
+        left:250px;
+        top:275px;
+    }
+}
+@-moz-keyframes pop{
+     0%{
+         left:1000px;
+         top:500px;
+     }
+     50%{
+         left:750px;
+         top:425px;
+     }
+     75%{
+         left:500px;
+         top:350px;
+     }
+     100%{
+         left:250px;
+         top:275px;
+     }
+ }
+
+@-o-keyframes pop{
+    0%{
+        left:1000px;
+        top:500px;
+    }
+    50%{
+        left:750px;
+        top:425px;
+    }
+    75%{
+        left:500px;
+        top:350px;
+    }
+    100%{
+        left:250px;
+        top:275px;
+    }
+}
+
+@keyframes pop{
+    0%{
+        left:1000px;
+        top:500px;
+    }
+    50%{
+        left:750px;
+        top:425px;
+    }
+    75%{
+        left:500px;
+        top:350px;
+    }
+    100%{
+        left:250px;
+        top:275px;
+    }
+}
+table{
+    -webkit-animation: pop 0.5s;
+    -moz-animation: pop 0.5s;
+    -o-animation: pop 0.5s;
+    animation: pop 0.5s;
+    -webkit-animation-timing-function:ease-in;
+    -moz-animation-timing-function:ease-in;
+    -o-animation-timing-function:ease-in;
+    animation-timing-function:ease-in;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
